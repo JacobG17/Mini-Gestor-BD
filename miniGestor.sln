@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "miniGestor", "miniGestor\miniGestor.csproj", "{9660D51D-2359-45D8-B1C1-A15B92D12CFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opDatos", "..\..\opDatos\opDatos\opDatos\opDatos.csproj", "{FF5B9FAC-39D6-4E8B-AEB1-D0923982B01D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9660D51D-2359-45D8-B1C1-A15B92D12CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9660D51D-2359-45D8-B1C1-A15B92D12CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9660D51D-2359-45D8-B1C1-A15B92D12CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF5B9FAC-39D6-4E8B-AEB1-D0923982B01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5B9FAC-39D6-4E8B-AEB1-D0923982B01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5B9FAC-39D6-4E8B-AEB1-D0923982B01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5B9FAC-39D6-4E8B-AEB1-D0923982B01D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -45,14 +45,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="crearBD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="crearBD.Designer.cs">
+      <DependentUpon>crearBD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="creatorTable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="creatorTable.Designer.cs">
+      <DependentUpon>creatorTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Gestor.Designer.cs">
+      <DependentUpon>Gestor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="crearBD.resx">
+      <DependentUpon>crearBD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="creatorTable.resx">
+      <DependentUpon>creatorTable.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -74,6 +98,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\opDatos\opDatos\opDatos\opDatos.csproj">
+      <Project>{ff5b9fac-39d6-4e8b-aeb1-d0923982b01d}</Project>
+      <Name>opDatos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Imagenes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
